@@ -188,13 +188,14 @@ img {
 
 #footer-left {
     width: 25%;
+    display: flex;
+    gap: 20px;
 }
 
 #footer i {
     font-size: 1.5rem;
     color: white;
     background-color: black;
-    padding: 0px 10px;
     cursor: pointer;
 }
 
