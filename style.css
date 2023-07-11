@@ -139,8 +139,8 @@ img {
 
 #left-image {
     position: absolute;
-    height: 200px;
-    width: 120px;
+    height: 220px;
+    width: 140px;
     top: 150px;
     left: 90px;
     object-fit: cover;
@@ -149,8 +149,8 @@ img {
 
 #right-image {
     position: absolute;
-    height: 240px;
-    width: 150px;
+    height: 260px;
+    width: 170px;
     bottom: 150px;
     right: 90px;
     object-fit: cover;
@@ -169,8 +169,8 @@ img {
 
 #right2-image {
     position: absolute;
-    height: 150px;
-    width: 250px;
+    height: 170px;
+    width: 270px;
     top: 100px;
     right: 400px;
     object-fit: cover;
