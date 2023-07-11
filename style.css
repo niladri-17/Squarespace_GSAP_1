@@ -1,110 +1,109 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Gilroy, Arial, Helvetica, sans-serif;
-    color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gilroy, Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 html,
 body {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 #main {
-    height: 100%;
-    width: 100%;
-    background-color: #000;
+  height: 100%;
+  width: 100%;
+  background-color: #000;
 }
 
 #nav {
-    /* position: sticky; */
-    /* top: 0; */
-    height: 80px;
-    width: 100%;
-    padding: 20px 30px;
-    margin-bottom: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1;
+  /* position: sticky; */
+  /* top: 0; */
+  height: 80px;
+  width: 100%;
+  padding: 20px 30px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
 }
 
 img {
-    height: 65px;
-    align-items: center;
-    cursor: pointer;
-    background-color: black;
+  height: 65px;
+  align-items: center;
+  cursor: pointer;
+  background-color: black;
 }
 
 #nav-part2 {
-    display: flex;
-    gap: 55px;
+  display: flex;
+  gap: 55px;
 }
 
 #nav-part2 h3 {
-    text-transform: uppercase;
-    cursor: pointer;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 #nav-part2 h3:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #nav-part2 h3:active {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #nav-part3 {
-    display: flex;
-    gap: 55px;
-    align-items: center;
+  display: flex;
+  gap: 55px;
+  align-items: center;
 }
 
 #nav-part3 h4 {
-    text-transform: uppercase;
-    cursor: pointer;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
-
 #nav button {
-    background-color: #fff;
-    color: #000;
-    padding: 15px 20px;
-    border: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1rem;
-    cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  padding: 15px 20px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 #nav button:hover {
-    scale: 1.05;
+  scale: 1.05;
 }
 
 #main h1 {
-    position: relative;
-    font-size: 5.5rem;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 1;
+  position: relative;
+  font-size: 5.5rem;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
 }
 
 #main h1 span {
-    background-color: brown;
-    font-size: 3rem;
-    border-radius: 70px;
-    padding: 15px 40px;
-    margin: 30px;
-    border: white;
+  background-color: brown;
+  font-size: 3rem;
+  border-radius: 70px;
+  padding: 15px 40px;
+  margin: 30px;
+  border: white;
 }
 
 #main h1 span:hover {
-    scale: 1.05;
-    cursor: pointer;
+  scale: 1.05;
+  cursor: pointer;
 }
 
 /* #main h1:nth-child(2) {
@@ -112,114 +111,112 @@ img {
 } */
 
 #watch {
-    position: relative;
-    font-size: 1.2rem;
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-    z-index: 1;
+  position: relative;
+  font-size: 1.2rem;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  z-index: 1;
 }
 
 #watch i {
-    font-size: 2rem;
-    padding: 1.2rem;
-    color: #000;
-    background-color: white;
-    margin-right: 20px;
+  font-size: 2rem;
+  padding: 1.2rem;
+  color: #000;
+  background-color: white;
+  margin-right: 20px;
 }
 
 #watch i:hover {
-    cursor: pointer;
-    scale: 1.05;
+  cursor: pointer;
+  scale: 1.05;
 }
 
-
 #left-image {
-    position: absolute;
-    height: 220px;
-    width: 140px;
-    top: 120px;
-    left: 90px;
-    object-fit: cover;
-    border-radius: 10px;
+  position: absolute;
+  height: 220px;
+  width: 140px;
+  top: 120px;
+  left: 90px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 #right-image {
-    position: absolute;
-    height: 260px;
-    width: 170px;
-    bottom: 120px;
-    right: 90px;
-    object-fit: cover;
-    border-radius: 10px;
+  position: absolute;
+  height: 260px;
+  width: 170px;
+  bottom: 120px;
+  right: 90px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 #left2-image {
-    position: absolute;
-    height: 180px;
-    width: 280px;
-    bottom: 100px;
-    left: 270px;
-    object-fit: cover;
-    border-radius: 10px;
+  position: absolute;
+  height: 180px;
+  width: 280px;
+  bottom: 100px;
+  left: 270px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 #right2-image {
-    position: absolute;
-    height: 150px;
-    width: 250px;
-    top: 100px;
-    right: 270px;
-    object-fit: cover;
-    border-radius: 10px;
+  position: absolute;
+  height: 150px;
+  width: 250px;
+  top: 100px;
+  right: 270px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 
 #footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 50px;
-    padding: 0 25px;
-    /* padding-bottom: 50px; */
-    /* border-bottom: 2px solid white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 0 25px;
+  /* padding-bottom: 50px; */
+  /* border-bottom: 2px solid white; */
 }
 
 #footer-left {
-    width: 25%;
-    display: flex;
-    gap: 20px;
+  width: 25%;
+  display: flex;
+  gap: 20px;
 }
 
 #footer i {
-    font-size: 1.5rem;
-    color: white;
-    background-color: black;
-    cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+  background-color: black;
+  cursor: pointer;
 }
 
 #scroll {
-    width: 50%;
-    font-size: 1.1rem;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 50%;
+  font-size: 1.1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #scroll-hover {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #scroll-hover:hover {
-    cursor: pointer;
-    scale: 1.05;
-
+  cursor: pointer;
+  scale: 1.05;
 }
 
 #footer-right {
-    width: 25%;
+  width: 25%;
 }
